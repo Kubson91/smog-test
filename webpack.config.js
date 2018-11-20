@@ -7,7 +7,7 @@ module.exports = function(env) {
   const browsers = [];
 
   const config = {
-    entry: ["whatwg-fetch", "./js/app.js"],
+    entry: ["whatwg-fetch", "./js/App.js"],
     output: {
       filename: "out.js",
       path: path.resolve(__dirname, "build")
