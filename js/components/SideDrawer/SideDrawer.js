@@ -20,7 +20,7 @@ const sideDrawer = props => {
           <a href="#article2">Jak się chronić?</a>
         </li>
         <li>
-          <a href="/">Walka ze smogiem</a>
+          <a href="#article3">Walka ze smogiem</a>
         </li>
       </ul>
     </nav>

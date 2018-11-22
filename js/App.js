@@ -6,6 +6,8 @@ import SideDrawer from "./components/SideDrawer/SideDrawer";
 import Backdrop from "./components/Backdrop/Backdrop";
 import AirConditions from "./components/CheckAir/AirConditions";
 import Articles from "./components/Articles/Articles";
+import Footer from "./components/Footer/Footer";
+
 
 import "./App.scss";
 
@@ -103,6 +105,7 @@ document.addEventListener("DOMContentLoaded", function() {
               error={this.state.error}
             />
             <Articles />
+            <Footer />
           </main>
         </div>
       );
