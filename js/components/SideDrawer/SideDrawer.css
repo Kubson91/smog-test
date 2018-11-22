@@ -1,0 +1,60 @@
+.side__drawer {
+  height: 100%;
+  background: #a7c2d2;
+  -webkit-box-shadow: 1px 0 7px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 0 7px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  max-width: 400px;
+  z-index: 200;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+
+.side__drawer.open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.side__drawer ul {
+  height: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.side__drawer li {
+  margin: 0.5rem;
+}
+
+.side__drawer a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.side__drawer a:hover,
+.side__drawer a:active {
+  color: #1f53c5;
+}
+
+@media (min-width: 769px) {
+  .side__drawer {
+    display: none;
+  }
+}
+/*# sourceMappingURL=SideDrawer.css.map */

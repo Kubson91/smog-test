@@ -1,5 +1,56 @@
 .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  font-family: "Merriweather", serif;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../../images/air-atmosphere-blue-675977.jpg);
+  input {
+    height: 50px;
+    width: 250px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 15px;
+    outline: none;
+  }
+  .splitter {
+    height: 20px;
+  }
+  button {
+    height: 50px;
+    width: 200px;
+    font-size: 1rem;
+    border: 1px solid #00a300;
+    border-radius: 15px;
+    background: #01ad01;
+    color: #fff;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  button:hover,
+  button:active {
+    font-size: 1.2rem;
+    border: 1px solid #009100;
+    border-radius: 15px;
+    background: #018b01;
+    cursor: pointer;
+  }
+  form {
+    h3 {
+      color: #d81b1b;
+    }
+  }
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    text-align: center;
+  }
 }

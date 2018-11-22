@@ -1,5 +1,31 @@
-.air__conditions {
+#air__conditions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  .air__conditions-info {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+      to bottom,
+      #ffffff,
+      #fafafa,
+      #f4f4f4,
+      #efefef,
+      #eaeaea
+    );
+    background-size: 100%;
+
+    h3 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      padding: 0 20px;
+      line-height: 1.5rem;
+    }
+  }
 }

@@ -11,13 +11,16 @@ const sideDrawer = props => {
     <nav className={drawerClasses}>
       <ul>
         <li>
-          <a href="/">Smog Test</a>
+          <a href="#air__conditions">SmogTest</a>
         </li>
         <li>
-          <a href="/">Czym jest Smog?</a>
+          <a href="#article1">Czym jest Smog?</a>
         </li>
         <li>
-          <a href="/">Porady</a>
+          <a href="#article2">Jak się chronić?</a>
+        </li>
+        <li>
+          <a href="/">Walka ze smogiem</a>
         </li>
       </ul>
     </nav>

@@ -1,0 +1,16 @@
+#article2 {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    h2 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        padding: 0 20px;
+        line-height: 1.5rem;
+    }
+}

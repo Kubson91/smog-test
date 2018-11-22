@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     background: #1C3F6A;
-    height: 60px;
+    height: 70px;
 }
 
 .navigation {
@@ -12,7 +12,7 @@
     justify-content: space-between;
     height: 100%;
     align-items: center;
-    padding: 0 2rem;
+    padding: 0 2.4rem;
 }
 
 .navigation__logo a {
@@ -30,10 +30,11 @@
 }
 
 .navigation__elements li {
-    padding: 0 0.5rem;
+    padding: 0 0.8rem;
 }
 
 .navigation__elements a {
+    font-family: "Merriweather", serif;
     color: #fff;
     text-decoration: none;
 }

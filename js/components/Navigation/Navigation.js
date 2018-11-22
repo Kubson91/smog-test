@@ -6,20 +6,32 @@ import "./Navigation.scss";
 const navigation = props => (
   <header className="navigation__header">
     <nav className="navigation">
-      <div className="navigation__hamburger-button"><Hamburger click={props.drawerClickHandler} /></div>
+      <div className="navigation__hamburger-button">
+        <Hamburger click={props.drawerClickHandler} />
+      </div>
       <div className="navigation__logo">
-        <a href="/">Tu będzie Logo</a>
+        <a href="/">
+          <img
+            src="../../../images/smog-test-logo.png"
+            alt="SmogTest Logo"
+            height="60"
+            width="120"
+          />
+        </a>
       </div>
       <div className="navigation__elements">
         <ul>
           <li>
-            <a href="/">Smog Test</a>
+            <a href="#air__conditions">SmogTest</a>
           </li>
           <li>
-            <a href="/">Czym jest Smog?</a>
+            <a href="#article1">Czym jest Smog?</a>
           </li>
           <li>
-            <a href="/">Porady</a>
+            <a href="#article2">Jak się chronić?</a>
+          </li>
+          <li>
+            <a href="/">Walka ze smogiem</a>
           </li>
         </ul>
       </div>

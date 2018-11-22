@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server --env.dev --inline --hot"
+    "start": "webpack-dev-server --host 192.168.1.39 --env.dev --inline --hot"
   },
   "repository": {
     "type": "git",
