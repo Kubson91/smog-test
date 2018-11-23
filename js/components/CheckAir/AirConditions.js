@@ -10,7 +10,7 @@ const airConditions = props => (
       <Form getAirConditions={props.getAirConditions} error={props.error} />
       <div className="airly__logo">
         <a href="https://airly.eu/pl/">
-          <img src="../../../images/logo1.jpg" alt="Airly Logo" />
+          <img src={require('../../../images/logo1.jpg')} alt="Airly Logo" />
         </a>
       </div>
     </div>

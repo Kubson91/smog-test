@@ -9,7 +9,7 @@ const footer = () => {
       <div className="splitter"></div>
       <a href="https://www.facebook.com/jakub.hartyniuk">
         <img 
-          src="../../../images/facebook.svg"
+          src={require('../../../images/facebook.svg')}
           alt="Facebook"
           height="30"
           width="30"
@@ -17,7 +17,7 @@ const footer = () => {
       </a>
       <a href="https://plus.google.com/u/0/118221412857504498560">
         <img 
-          src="../../../images/google-plus.svg"
+          src={require('../../../images/google-plus.svg')}
           alt="GooglePlus"
           height="30"
           width="30"
@@ -25,7 +25,7 @@ const footer = () => {
       </a>
       <a href="https://www.linkedin.com/in/jakub-hartyniuk-ab9912117/">
         <img 
-          src="../../../images/linkedin.svg"
+          src={require('../../../images/linkedin.svg')}
           alt="LinkedIn"
           height="30"
           width="30"
@@ -33,7 +33,7 @@ const footer = () => {
       </a>
       <a href="https://github.com/Kubson91">
         <img 
-          src="../../../images/github.svg"
+          src={require('../../../images/github.svg')}
           alt="GitHub"
           height="30"
           width="30"

@@ -12,7 +12,7 @@ const navigation = props => (
       <div className="navigation__logo">
         <a href="/">
           <img
-            src="../../../images/smog-test-logo.png"
+            src={require('../../../images/smog-test-logo.png')}
             alt="SmogTest Logo"
           />
         </a>
