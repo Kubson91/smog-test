@@ -14,8 +14,6 @@ const navigation = props => (
           <img
             src="../../../images/smog-test-logo.png"
             alt="SmogTest Logo"
-            height="60"
-            width="120"
           />
         </a>
       </div>

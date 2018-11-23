@@ -1,0 +1,29 @@
+#footer {
+  height: 100px;
+  width: 100%;
+  background: #dddddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  a {
+    padding-right: 10px;
+  }
+  p {
+    padding: 0 10px;
+    color: #000;
+  }
+}
+
+@media (min-width: 769px) {
+    #footer {
+        a {
+            padding-right: 50px;
+        }
+        p {
+            padding-left: 70px;
+        }
+    }
+    .splitter {
+        flex: 1;
+    }
+}
